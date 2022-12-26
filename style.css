@@ -1,0 +1,519 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#fullPage{
+    height: 3000px;
+}
+body{
+    margin: 0;
+    height: 3000px;
+    background-color: #121212;
+}
+header{
+    height: 51.8px;
+    background-color: #2a2a2a;
+}
+#wLogo{
+    height: 36px;
+    width: 31px;
+    margin: 8px 14px;
+}
+#heading{
+    display: inline-block;
+    height: 52.8px;
+    width: 500px;
+    position: absolute;
+}
+.head{
+    display: inline-block;
+    margin: 18px 16px;
+    color: rgb(165, 160, 160);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 13px;
+}
+.head:hover{
+    color:white;
+    cursor: pointer;
+}
+#language{
+    position: absolute;
+    right: 238px;
+    display: inline-block;
+    right: 238;
+    height: 51.8px;
+    width: 50px;
+}
+#language:hover{
+    cursor: pointer;
+}
+#langIcon{
+    height: 22px;
+    width: 20px;
+    margin: 14px 8px ;
+    display: inline-block;
+    
+}
+#login{
+    height: 51.8px;
+    width: 110px;
+    position: absolute;
+    right: 128px;
+    top: 0;
+    font-size: 10px;
+}
+#login:hover{
+    cursor: pointer;
+}
+#loginIcon{
+    height: 22px;
+    width: 20px;
+    margin: 14px 8px ;
+    display: inline-block;
+}
+#signIn{
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 18px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 1px;
+}
+#DownloadButton{
+    height: 51.8px;
+    width: 128px;
+    position: absolute;
+    right: 0;
+    color: white;
+    border: none;
+    background-color: #0078fd;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 1px;
+    
+}
+#DownloadButton:hover{
+    cursor: pointer;
+}
+#searchAndDiscover{
+    height: 100px;
+    width: 100%;
+    background-color: #121212;
+    padding: 30px 170px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+#search{
+    height: 38px;
+    width: 230px;
+    background-color: #2a2a2a;
+    border:none;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: rgb(165, 160, 160);
+}
+.dbn{
+    display: inline-block;
+    color: rgb(165, 160, 160);
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.dbn:hover{
+    color:white;
+    cursor: pointer;
+}
+#bannerContainer{
+    width: 100%;
+    height: 500px;
+}
+#banner{
+    width: 819.75;
+    height: 451.1;
+    margin-left: 170px;
+}
+#banner:hover{
+    cursor: pointer;
+}
+#crimeboss{
+    width: 819.75;
+    height: 461.1;
+    border-radius: 25px;
+}
+#sideNews{
+    position: absolute;
+    right: 0;
+    height: 466px;
+    width: 180px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+.Nnews{
+    width: 90%;
+    height: 72px;
+    margin: 6px;
+    padding: 6px 3px;
+    border-radius: 8px;
+}
+.Nnews:hover{
+    background-color: #2a2a2a;
+    cursor: pointer;
+}
+.sideLogos{
+    height: 55px;
+    width: 45px;
+    border-radius: 10px;
+}
+.sideText{
+    display: inline-block;
+    padding-top: 0;
+    color: white;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#holidaySaleSpotlight{
+    height: 400px;
+    width: 100%;
+    padding: 5px 0px 10px 160px;
+    margin: 20px 0 0 0;
+    z-index: 2;
+} 
+.Headdings{
+    color: white;
+    font-family: fra;
+    font-weight: 100;
+    font-size: 22px;
+    margin: 10px 0 20px 5px;
+}
+.holiSaleGames  {
+    display: inline-block;
+    height: 376.6;
+    width: 189.6;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+.holiSaleGames:hover{
+    cursor: pointer;
+}
+.holiGamesLogo{
+    height: 200.8;
+    width: 189.6;
+    border-radius: 8px 8px 0 0 ;
+}
+.gl{
+    height: 252.8;
+    width: 189.6;
+}
+.bg{
+    font-size: 10px;
+    color: #777777;
+    margin:3px 0 0 0;
+}
+.gameName{
+    font-size: 18px;
+    color: black;
+    margin:3px 0 0 0;
+    color: white;
+}
+.discount{
+    display: inline-block;
+    height: 24px;
+    width: 38px;
+    border-radius: 3px;
+    background-color: #0074e4;
+    color: white;
+    font-size: 13px;
+    padding: 3px 6px 3px 5px;
+    margin: 5px 0 0 0 ;
+}
+.OrgPrice{
+    color: #777777;
+    display: inline-block;
+    margin-left: 8px;
+}
+.discountPrice{
+    display: inline-block;
+    margin-left: 8px;
+    color: white;
+}
+#three{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    padding: 10px 0 0 60px;
+    margin-top: 85px;
+}
+.ftpGames{
+    display: inline-block;
+    margin-right: 54px;
+    height: 358px;
+    width: 315px;
+}
+.ftpglogo{
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+}
+.ftpglogo:hover{
+    cursor: pointer;
+}
+.ftpgameName{
+    font-size: 20px;
+    color: black;
+    margin:8px 0 0 10px;
+    color: white;
+}
+.gameDiscription{
+    color: #9a9a9a;
+    margin:8px 0 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.ftp{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0 0 10px;
+    font-size: 18px;
+    font-weight: 2px;
+}
+.ftp:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#four{
+    height: 550px;
+    width: 100%;
+    background-color: #121212;
+    padding: 40px 0 0 160px;
+}
+#ingame{
+    height: 482px;
+    width: 1010px;
+    background-color: #2a2a2a;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#giftLogo{
+    height: 42px;
+    width: 42px;
+    margin: 8px 0 0 12px;
+}
+#freeGa{
+    display: inline-block;
+    padding: 0;
+}
+.Headdingss{
+    display: inline-block;
+    color: white;
+    font-family: fra;
+    font-weight: 100;
+    font-size: 22px;
+    margin: 0 0 20px 25px;
+    position: relative;
+    top: -8px;
+}
+.free1{
+    height: 380px;
+    width: 458px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.free2{
+    height: 380px;
+    width: 458px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 60px;
+    transform: translateY(-20px);
+}
+.free1,.free2:hover{
+    cursor: pointer;
+}
+.feGameLogo{
+    width: 100%;
+    height: 257px;
+}
+.FgameName{
+    font-size: 18px;
+    color: black;
+    margin:3px 0 0 0;
+    color: white;
+    margin: 20px 0 0 20px;
+}
+.expiry{
+    color: white;
+    margin-left: 20px;
+}
+#five{
+    height: 550px;
+    width: 1300px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.topMosttop{
+    height: 450px;
+    width: 315px;
+    margin-right: 10px;
+}
+.tmtHeading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.tmtGames{
+    width: 100%;
+    height: 88px;
+    margin-top: 10px;
+}
+.tmtGames:hover{
+    cursor: pointer;
+}
+.tmtLogo{
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+#priceAndDiscount{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    overflow: hidden;
+}
+.discounttmt{
+    display: inline-block;
+    height: 24px;
+    width: 38px;
+    border-radius: 3px;
+    background-color: #0074e4;
+    color: white;
+    font-size: 13px;
+    padding: 3px 6px 3px 5px;
+    margin: 5px 0 0 0 ;
+}
+.OrgPricetmt{
+    color: #777777;
+    display: inline-block;
+    margin-left: 8px;
+}
+.discountPricetmt{
+    display: inline-block;
+    margin-left: 8px;
+    color: white;
+}
+#six{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+#catLogo{
+    height: 340px;
+    width: 600px;
+    border-radius: 15px;
+    margin: 40px 0 0 80px;
+}
+#eoc{
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+}
+#catHeading{
+    color: white;
+    margin-bottom: 20px;
+}
+#catDescription{
+    color: white;
+    margin-bottom: 20px;
+}
+#browseAll{
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    height: 50px;
+    width: 110px;
+}
+#browseAll:hover{
+    cursor: pointer;
+    color: rgb(59, 58, 58);
+}
+#footer{
+    height: 612px;
+    width: 1284px;
+    background-color: #121212;
+    padding: 30px 0 0 60px;
+}
+#socialMedia{
+    height: 65px;
+    width: 1250px;
+    padding-left: 20px;
+}
+.socialMediaLogos{
+    height: 45px;
+    width: 45px;
+    margin:5px 10px;
+}
+#gotop{
+    background-color: #2a2a2a;
+    border: 1px currentColor white;
+    color: white;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: 20px;
+}
+#gotop:hover{
+    cursor: pointer;
+    border-color:rgb(18, 93, 233);
+}
+.RresAndMadeByHeading{
+    color: #838282;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resourceAndMadeBy{
+    color: rgb(192, 188, 188);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+}
+td{
+    padding: 5px 40px 5px 0;
+}
+td:hover{
+    color: rgb(18, 93, 233);
+}
+#copyright{
+    margin-top: 30px;
+    color: #838282;
+    font-size: 14px;
+}
+#policy{
+    margin-top: 35px;
+    color: #e2dbdb;
+    font-size: 15px;
+}
+#epicUnreal{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    right: 30px;
+}
+.lastlogo{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
